@@ -1,0 +1,50 @@
+.site-heading {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url(../images/Red-Orange-BlueBackground.jpeg);
+    background-color: rgb(8, 10, 9);
+    color: rgb(8, 10, 9);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-primary-new {
+    color: rgb(250, 106, 42);
+}
+.btn-primary {
+    background-color: rgb(250, 106, 42);
+    border-color: rgb(250, 106, 42);
+}
+.text-faded {
+    color: rgb(254, 247, 247);
+}
+.bg-faded {
+    background-color: rgb(254, 247, 247); 
+}
+.cta {
+    background-color: rgba(250, 106, 42, 0.9);
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: rgba(254, 247, 247, 0.7);
+    font-weight: 800;
+}
+#mainNav {
+    background-color: rgba(41, 50, 65, 0.9);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer {
+    background-color: rgba(41, 50, 65, 0.9);
+}
+#mainNav .navbar-brand {
+    color: rgb(250, 106, 42);
+}
+.btn-xl {
+    margin-top: 1rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+.youtube {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
