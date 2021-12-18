@@ -1,11 +1,65 @@
 body {
     background-image: url(../images/whiteTechnology.jpeg);
-    font-family: "cinzel";
-}
-header {
-    font-family: "cinzel";
 }
 h1 {
     font-family: "cinzel";
     text-align: center;
+    color:rgb(238, 108, 77);
+    background-color: rgb(61, 90, 128);
+}
+h2 {
+    font-family: "cinzel";
+    border-bottom: rgb(41, 50, 65);
+    border-bottom-style: solid;
+}
+.tableau {
+    background-color: rgba(238, 108, 77, .8);
+    border-radius: .25rem;
+    padding: 2rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(41, 50, 65, 0.7);
+    margin-bottom: 2rem;
+}
+li {
+    display: inline;
+    float: left;
+    border-right:1px solid #bbb;
+}
+a {
+    display: block;
+    padding: 8px;
+    color: rgb(238, 108, 77);
+}
+li:last-child {
+    border-right: none;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #1b3b80;
+}
+.active {
+    background-color: rgba(238, 108, 77, .8);
+}
+footer {
+    text-align: center;
+    background-color: rgba(41, 50, 65, 0.7);
+    padding: 2rem;
+    color: white;
+    margin-top: 3rem;
+}
+a:hover:not(.nav-bar) {
+    color: rgb(201, 91, 64);
 }

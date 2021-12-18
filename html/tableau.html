@@ -1,4 +1,4 @@
-<!--Hayden Lowry 12/16/21-->
+<!--Hayden Lowry 12/17/21-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -11,16 +11,27 @@
             <h1 id="top">Tableau Analytics</h1>
         </header>
         <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="aboutme.html">About Me</a></li>
-                <li><a href="tableau.html">Tableau</a></li>
-            </ul>
+            <div>
+                <ul>
+                    <li><a class="nav-bar" href="../index.html">Home</a></li>
+                    <li><a class="nav-bar" href="aboutme.html">About Me</a></li>
+                    <li><a class="active nav-bar" href="tableau.html">Tableau</a></li>
+                    <li style="float: right;border-left:1px solid #bbb;"><a class="nav-bar" href="https://public.tableau.com/en-us/s/">Tableau Public</a></li>
+                </ul>
+            </div>
         </nav>
-        <div class='tableauPlaceholder' id='viz1639698579667' style='position: relative; margin-left: auto; margin-right: auto;'><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='WebDevProject_16396361029640&#47;WebDevTableau' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1639698579667');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1427px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-        
+        <section>
+            <div class='tableauPlaceholder' id='viz1639698579667' style='position: relative; margin-left: auto; margin-right: auto;'><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='WebDevProject_16396361029640&#47;WebDevTableau' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1639698579667');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1427px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            <div class="tableau">  
+                <h2>Analysis:</h2>  
+                <p>The <b>top right graph</b> is the basis for our dashboard. The map shows which states are the most profitable in a range of blue to white, white being zero. The most profitable states are California and New York. As you can see some states are also an orange color showing net income below zero or there are more expenses then profits resulting in a negative profit. Texas by far is the most unprofitable state shown.</p>
+                <p>The <b>top left graph</b> is the profits in California by month. The most profitable season is the winter time but the profits never drop to zero meaning they are still making money all year long.</p>
+                <p>The <b>bottom right graph</b> shows us profits in California by category. This gives us a better idea on what the company sells and what is more worth their time selling. The most profitable category is office supplies. Even more importantly the lowest category is furniture. Sometimes it's more important to know when to drop a product then what is doing the best.</p>
+                <p>The last <b>bottom left graph</b> shows us the forecasted sales of office supplies for the next year to November 2015. Sales are different then profits and show us the amount of money made before we take out the expenses. As you can see, different months every year such as March or July have high sales. When we compare this to the second graph, we have to remember that even though we sold a lot in July, there was also a big amount of expenses which made our profits low. Finally, our forecasted data shows us a steady rise in sales of office supplies for the next year.</p>
+            </div>
+        </section>
         <footer>
             <a href="#top">Return to Top</a>
-            <div><p>Copyright &copy; Hayden Lowry 2021</p></div>
+            <div class="copyright"><p>Copyright &copy; Hayden Lowry 2021</p></div>
         </footer>
 </html>
